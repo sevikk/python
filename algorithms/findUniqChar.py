@@ -6,8 +6,7 @@ def firstUniqChar(str: str):
 
     collection = dict({})
     for key in str:
-        collection[key] = (collection.get(key, 0) +
-                           1) if key in collection else 1
+        collection[key] = (collection.get(key, 0) + 1) if key in collection else 1
 
     for index in range(len(str)):
         char = str[index]
