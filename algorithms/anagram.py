@@ -16,7 +16,7 @@ def validAnagram(str1, str2):
 # validAnagram('aaz', 'zaa')# // true
 print(validAnagram('anagram', 'nagaram')) #// true
 # print(validAnagram("rat","car")) #// false) // false
-# print(validAnagram('awesome', 'awesom')) #// false
+print(validAnagram('awesome', 'awesom')) #// false
 # print(validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana')) #// false
 print(validAnagram('qwerty', 'qeywrt')) #// true
 print(validAnagram('texttwisttime', 'Timetwisttext')) #// true
