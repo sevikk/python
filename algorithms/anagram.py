@@ -14,7 +14,7 @@ def validAnagram(str1, str2):
 # print(validAnagram("arr", "rra"))
 # print(validAnagram('', '')) #// true
 # validAnagram('aaz', 'zaa')# // true
-# print(validAnagram('anagram', 'nagaram')) #// true
+print(validAnagram('anagram', 'nagaram')) #// true
 # print(validAnagram("rat","car")) #// false) // false
 # print(validAnagram('awesome', 'awesom')) #// false
 # print(validAnagram('amanaplanacanalpanama', 'acanalmanplanpamana')) #// false
