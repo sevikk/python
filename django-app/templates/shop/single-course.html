@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %}{%
+course.title %}{% endblock %} {% block course %}
+<div class="card mt-5">
+  <div class="card-body">
+    <h1 class="">{{ course.title }}</h1>
+    <h2>{{ course.category }}</h2>
+    <p>Price: {{ course.price }}</p>
+    <p>
+      Student quantity: {{ course.students_qty }}
+    </p>
+    <button class="btn btn-primary">Buy</button>
+  </div>
+</div>
+
+{% endblock %}
