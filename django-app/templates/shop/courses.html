@@ -21,6 +21,9 @@ courses{% endblock %} {% block courses %}
       <td>{{ course.price }}</td>
       <td>{{ course.students_qty }}</td>
       <td>
+        <a href={% url "shop:single_course_edit" course.id %}>
+          Edit
+        </a>
         <button class="btn btn-primary">
           Buy
         </button>

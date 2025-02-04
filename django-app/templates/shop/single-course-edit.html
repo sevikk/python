@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block title %}{%
+    course.title %}{% endblock %} {% block course %}
+    1111
+    <form method="post" action="{% url "shop:single_course_edit" course.id %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Send</button>
+    </form>
+    {% endblock %}
