@@ -101,8 +101,8 @@ a = 1
 
 
 def check():
-    # global d
-    # global a
+    global d
+    global a
     d = 10
     a = True
     b = 2
